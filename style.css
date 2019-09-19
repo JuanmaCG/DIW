@@ -1,3 +1,4 @@
+
 body {
 
     background-image: url('Illustration02.jpg');
@@ -7,11 +8,11 @@ body {
     -o-background-size:cover;
     background-size:cover;
     background-position:center;
-
+    
 } 
 
 #formulario {
-
+    font-family: 'Lobster', cursive;
     border-style: inset;
     border-color: darkblue;
     padding-left: 10px;
@@ -34,11 +35,17 @@ body {
 }
 
 #jumbo {
-    margin-top: 120px;
+    text-align: center;
     background-color: transparent;
+    color: darkcyan;
+    font-family: 'Lobster', cursive;
 }
 
 #navegador {
     background-color: transparent;
+    font-family: 'Lobster', cursive;
 }
 
+img {
+    padding-left: 50px;
+}
